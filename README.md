@@ -1,1 +1,2 @@
 # ProcessInjectionSimpleDetection
+Simple C++ implementation of a process injection detector. Uses Microsoft's Detour library for hooks and uses simple regexes for matching common process injection patterns. Detects classinc injection (VirtualAlloc-WriteProcessMemory-CreateThread), Thread Execution Hijacking, QueueAPC injection and NtMapView injection. Represents the project for my bachelor's thesis.
